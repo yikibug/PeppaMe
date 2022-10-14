@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PeppaMe_Example' do
+  pod 'PeppaMe', :path => '../'
+
+  target 'PeppaMe_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
