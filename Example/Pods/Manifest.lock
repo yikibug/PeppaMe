@@ -1,0 +1,16 @@
+PODS:
+  - PeppaMe (0.0.1)
+
+DEPENDENCIES:
+  - PeppaMe (from `../`)
+
+EXTERNAL SOURCES:
+  PeppaMe:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PeppaMe: 9ed447277258c7c8e98c8a6288cdd6a7f7101592
+
+PODFILE CHECKSUM: 8ec44e1ea29064e66b2f5389a32fcae5277e5345
+
+COCOAPODS: 1.11.3

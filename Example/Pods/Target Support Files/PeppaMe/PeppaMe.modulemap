@@ -1,0 +1,6 @@
+framework module PeppaMe {
+  umbrella header "PeppaMe-umbrella.h"
+
+  export *
+  module * { export * }
+}

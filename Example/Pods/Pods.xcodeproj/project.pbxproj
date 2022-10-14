@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E5771EE6A3BEDE79A96979B8A8AEEAF /* Pods-PeppaMe_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA90DAB12362603448233A1F278820BA /* Pods-PeppaMe_Example-dummy.m */; };
+		37B9D645295E31EF7F2A0C95C429ECB7 /* OrderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF692DB4547E792CAE439B85812CE863 /* OrderManager.swift */; };
+		3BDFCD138AE9A2977B811BEEE7ACD310 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4A7A9D5003035F46A6A0BC64FB55CDB0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E2E3C29B43AD53FAD717E6B9B2F963 /* Test.swift */; };
+		85E974C92B1EA32211723EEED5FC82A3 /* Pods-PeppaMe_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC838581F7760F932A1A33A435CBF9B7 /* Pods-PeppaMe_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA81439BFC7B8BA03F1C21368879F04 /* Pods-PeppaMe_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CD03A6D8BC611B9135836892EEEB30 /* Pods-PeppaMe_Tests-dummy.m */; };
+		8D9AEC3DE7B25B7976B2A75DAE7E26C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3260DAB2DCE6E20E9849AA4D35862A2 /* PeppaMe-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 719395F7BFA2EC94601CD55DF6AB3A11 /* PeppaMe-dummy.m */; };
+		C30519AB3847297AC54BF33E5A3F00CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C55FD8C4B27FABAC45E5830919DF841C /* PeppaMe-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 326019162F6CAB94C4CA547911A9FE72 /* PeppaMe-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E56A4736AC6D00F78C64775BDED7FAEE /* Pods-PeppaMe_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 170DA64D76B49D8E4A0BA76FB9CA7D83 /* Pods-PeppaMe_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233B889A76F3CA9A78143766D2DCDDF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8B13178294C6B654757B6480455CDD9;
+			remoteInfo = PeppaMe;
+		};
+		234B0D09E265DA795A417428634EBEC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91525280594F288BD8BEBB6086DCC725;
+			remoteInfo = "Pods-PeppaMe_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C697A6E70AE3F0403C8DAFF1324401F /* PeppaMe.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PeppaMe.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		170DA64D76B49D8E4A0BA76FB9CA7D83 /* Pods-PeppaMe_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeppaMe_Example-umbrella.h"; sourceTree = "<group>"; };
+		1FBA31542BAC3FDA79D3258B8E166907 /* Pods-PeppaMe_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeppaMe_Example.modulemap"; sourceTree = "<group>"; };
+		20CD03A6D8BC611B9135836892EEEB30 /* Pods-PeppaMe_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeppaMe_Tests-dummy.m"; sourceTree = "<group>"; };
+		304ED581BB4B543B8A6F7C0D77C35DDC /* Pods-PeppaMe_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PeppaMe_Example-frameworks.sh"; sourceTree = "<group>"; };
+		326019162F6CAB94C4CA547911A9FE72 /* PeppaMe-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeppaMe-umbrella.h"; sourceTree = "<group>"; };
+		3AA734EAC1F4FA1A3C2B267839CE1CA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		44376F8A782242EA7BFC1B3C95035527 /* PeppaMe */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PeppaMe; path = PeppaMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		486BC69337530F0467F320A6D7F78FD3 /* PeppaMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeppaMe.release.xcconfig; sourceTree = "<group>"; };
+		4DE14358945F6D91F33065C8EE802C5C /* Pods-PeppaMe_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeppaMe_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		57C917E7B5968A8DA7C8D02242206DD3 /* Pods-PeppaMe_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PeppaMe_Tests.modulemap"; sourceTree = "<group>"; };
+		669C0E63E05EB7EDC59451A920878AFC /* Pods-PeppaMe_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PeppaMe_Tests"; path = Pods_PeppaMe_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691F262E69EC8C588D3769E61C6437D3 /* PeppaMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PeppaMe.debug.xcconfig; sourceTree = "<group>"; };
+		719395F7BFA2EC94601CD55DF6AB3A11 /* PeppaMe-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PeppaMe-dummy.m"; sourceTree = "<group>"; };
+		71BAF17D73AD8E623034D5DB3DB7A5E7 /* Pods-PeppaMe_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeppaMe_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F4A2C81148121FD591F8C8E2DA0ACE5 /* Pods-PeppaMe_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeppaMe_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		95C158B1F04874871C859E3593C858C9 /* PeppaMe-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PeppaMe-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59A578901DE07EDA186FDD49DDA7837 /* PeppaMe-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PeppaMe-prefix.pch"; sourceTree = "<group>"; };
+		A5C76E17EC1447C25084DBD030A6A37A /* Pods-PeppaMe_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeppaMe_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AC838581F7760F932A1A33A435CBF9B7 /* Pods-PeppaMe_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PeppaMe_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ACD915B3E36505BA29385AA8A93D696B /* Pods-PeppaMe_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PeppaMe_Example"; path = Pods_PeppaMe_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB09F5D526C2A28B4363FB6D43E0B3E /* Pods-PeppaMe_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeppaMe_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C0E2E3C29B43AD53FAD717E6B9B2F963 /* Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Test.swift; path = PeppaMe/Classes/Test.swift; sourceTree = "<group>"; };
+		C22A2B9FBE897482A029CF33A98A86D4 /* Pods-PeppaMe_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeppaMe_Example-Info.plist"; sourceTree = "<group>"; };
+		C95EEA85A0E6EBA0B294726CB842ECBC /* Pods-PeppaMe_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PeppaMe_Tests-Info.plist"; sourceTree = "<group>"; };
+		CF3C6AD64188A1B398CA6D80B92372DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA90DAB12362603448233A1F278820BA /* Pods-PeppaMe_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PeppaMe_Example-dummy.m"; sourceTree = "<group>"; };
+		DF692DB4547E792CAE439B85812CE863 /* OrderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderManager.swift; path = PeppaMe/Classes/OrderManager.swift; sourceTree = "<group>"; };
+		ED71ECBBB7F8E3DC7E4950B3AA5FD785 /* Pods-PeppaMe_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PeppaMe_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F39BC6A25D2ED12E7CC9F202DDFA1415 /* Pods-PeppaMe_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeppaMe_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F55A71FE77D43414501628E42C61B29D /* PeppaMe.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PeppaMe.modulemap; sourceTree = "<group>"; };
+		F688622B5D1DDB060994715F1343539F /* Pods-PeppaMe_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PeppaMe_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11C1BE4164F53CC61F08554387654158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30519AB3847297AC54BF33E5A3F00CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438906E887A76BE542D4237835F4ACF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9AEC3DE7B25B7976B2A75DAE7E26C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB2A4FE83DA0BFF2AA81C43EAE43AE7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDFCD138AE9A2977B811BEEE7ACD310 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		285D120821F9146CD84F6293D151502A /* Pods-PeppaMe_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				57C917E7B5968A8DA7C8D02242206DD3 /* Pods-PeppaMe_Tests.modulemap */,
+				F39BC6A25D2ED12E7CC9F202DDFA1415 /* Pods-PeppaMe_Tests-acknowledgements.markdown */,
+				ADB09F5D526C2A28B4363FB6D43E0B3E /* Pods-PeppaMe_Tests-acknowledgements.plist */,
+				20CD03A6D8BC611B9135836892EEEB30 /* Pods-PeppaMe_Tests-dummy.m */,
+				C95EEA85A0E6EBA0B294726CB842ECBC /* Pods-PeppaMe_Tests-Info.plist */,
+				AC838581F7760F932A1A33A435CBF9B7 /* Pods-PeppaMe_Tests-umbrella.h */,
+				ED71ECBBB7F8E3DC7E4950B3AA5FD785 /* Pods-PeppaMe_Tests.debug.xcconfig */,
+				8F4A2C81148121FD591F8C8E2DA0ACE5 /* Pods-PeppaMe_Tests.release.xcconfig */,
+			);
+			name = "Pods-PeppaMe_Tests";
+			path = "Target Support Files/Pods-PeppaMe_Tests";
+			sourceTree = "<group>";
+		};
+		3555F51BC840654296FE508B85C07808 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CF3C6AD64188A1B398CA6D80B92372DF /* LICENSE */,
+				0C697A6E70AE3F0403C8DAFF1324401F /* PeppaMe.podspec */,
+				3AA734EAC1F4FA1A3C2B267839CE1CA2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8795E102322F40859945EC3A19D746AB /* Pods-PeppaMe_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1FBA31542BAC3FDA79D3258B8E166907 /* Pods-PeppaMe_Example.modulemap */,
+				F688622B5D1DDB060994715F1343539F /* Pods-PeppaMe_Example-acknowledgements.markdown */,
+				4DE14358945F6D91F33065C8EE802C5C /* Pods-PeppaMe_Example-acknowledgements.plist */,
+				DA90DAB12362603448233A1F278820BA /* Pods-PeppaMe_Example-dummy.m */,
+				304ED581BB4B543B8A6F7C0D77C35DDC /* Pods-PeppaMe_Example-frameworks.sh */,
+				C22A2B9FBE897482A029CF33A98A86D4 /* Pods-PeppaMe_Example-Info.plist */,
+				170DA64D76B49D8E4A0BA76FB9CA7D83 /* Pods-PeppaMe_Example-umbrella.h */,
+				71BAF17D73AD8E623034D5DB3DB7A5E7 /* Pods-PeppaMe_Example.debug.xcconfig */,
+				A5C76E17EC1447C25084DBD030A6A37A /* Pods-PeppaMe_Example.release.xcconfig */,
+			);
+			name = "Pods-PeppaMe_Example";
+			path = "Target Support Files/Pods-PeppaMe_Example";
+			sourceTree = "<group>";
+		};
+		C1643B982962853BDBA196887E4498FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44376F8A782242EA7BFC1B3C95035527 /* PeppaMe */,
+				ACD915B3E36505BA29385AA8A93D696B /* Pods-PeppaMe_Example */,
+				669C0E63E05EB7EDC59451A920878AFC /* Pods-PeppaMe_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C92C454074E68B5A30DC450C7EA4C3F2 /* PeppaMe */ = {
+			isa = PBXGroup;
+			children = (
+				DF692DB4547E792CAE439B85812CE863 /* OrderManager.swift */,
+				C0E2E3C29B43AD53FAD717E6B9B2F963 /* Test.swift */,
+				3555F51BC840654296FE508B85C07808 /* Pod */,
+				FE8431429E9B5084EB167C6E1E9CABC0 /* Support Files */,
+			);
+			name = PeppaMe;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F84A0056CB2D952F3F467ADC886AC79B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C1643B982962853BDBA196887E4498FC /* Products */,
+				D43D75C75EC39D02A3B0DE5696E8FA7B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D43D75C75EC39D02A3B0DE5696E8FA7B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8795E102322F40859945EC3A19D746AB /* Pods-PeppaMe_Example */,
+				285D120821F9146CD84F6293D151502A /* Pods-PeppaMe_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F84A0056CB2D952F3F467ADC886AC79B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C92C454074E68B5A30DC450C7EA4C3F2 /* PeppaMe */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FE8431429E9B5084EB167C6E1E9CABC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F55A71FE77D43414501628E42C61B29D /* PeppaMe.modulemap */,
+				719395F7BFA2EC94601CD55DF6AB3A11 /* PeppaMe-dummy.m */,
+				95C158B1F04874871C859E3593C858C9 /* PeppaMe-Info.plist */,
+				A59A578901DE07EDA186FDD49DDA7837 /* PeppaMe-prefix.pch */,
+				326019162F6CAB94C4CA547911A9FE72 /* PeppaMe-umbrella.h */,
+				691F262E69EC8C588D3769E61C6437D3 /* PeppaMe.debug.xcconfig */,
+				486BC69337530F0467F320A6D7F78FD3 /* PeppaMe.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PeppaMe";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7014FEE9B9CE4BCA68E0120BB8103BE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55FD8C4B27FABAC45E5830919DF841C /* PeppaMe-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9811CDA2148E74B98D40BC801175218C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E56A4736AC6D00F78C64775BDED7FAEE /* Pods-PeppaMe_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE13445FEBD66C48918161B255A3F2F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85E974C92B1EA32211723EEED5FC82A3 /* Pods-PeppaMe_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		91525280594F288BD8BEBB6086DCC725 /* Pods-PeppaMe_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC5123DD9F185719F99D080854734378 /* Build configuration list for PBXNativeTarget "Pods-PeppaMe_Example" */;
+			buildPhases = (
+				9811CDA2148E74B98D40BC801175218C /* Headers */,
+				E8436F1C956457D1D80E601675EBEBA4 /* Sources */,
+				FB2A4FE83DA0BFF2AA81C43EAE43AE7D /* Frameworks */,
+				A1E81FFF83E211F358EBB085AFE66CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A83990A586D9223C934402EAA326897 /* PBXTargetDependency */,
+			);
+			name = "Pods-PeppaMe_Example";
+			productName = Pods_PeppaMe_Example;
+			productReference = ACD915B3E36505BA29385AA8A93D696B /* Pods-PeppaMe_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8B13178294C6B654757B6480455CDD9 /* PeppaMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79E2FFE07B907F3E5544A6D46E204C67 /* Build configuration list for PBXNativeTarget "PeppaMe" */;
+			buildPhases = (
+				7014FEE9B9CE4BCA68E0120BB8103BE6 /* Headers */,
+				2B42C5A4092761E168F6F8F9A0652190 /* Sources */,
+				11C1BE4164F53CC61F08554387654158 /* Frameworks */,
+				92A2EDF38736964341A4992AA4BE00BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeppaMe;
+			productName = PeppaMe;
+			productReference = 44376F8A782242EA7BFC1B3C95035527 /* PeppaMe */;
+			productType = "com.apple.product-type.framework";
+		};
+		DAC5F3F6E22C4C63DF5BF5D1530C2C87 /* Pods-PeppaMe_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8A2007ECB4A6961256676E284D29013 /* Build configuration list for PBXNativeTarget "Pods-PeppaMe_Tests" */;
+			buildPhases = (
+				AE13445FEBD66C48918161B255A3F2F4 /* Headers */,
+				62BB7ABC5D6A7D0311E285DCBF1CFBD5 /* Sources */,
+				438906E887A76BE542D4237835F4ACF1 /* Frameworks */,
+				33087A88A704857196638D4B9D177908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50CF0188FB862451248C17CBC4CEFA9D /* PBXTargetDependency */,
+			);
+			name = "Pods-PeppaMe_Tests";
+			productName = Pods_PeppaMe_Tests;
+			productReference = 669C0E63E05EB7EDC59451A920878AFC /* Pods-PeppaMe_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1643B982962853BDBA196887E4498FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8B13178294C6B654757B6480455CDD9 /* PeppaMe */,
+				91525280594F288BD8BEBB6086DCC725 /* Pods-PeppaMe_Example */,
+				DAC5F3F6E22C4C63DF5BF5D1530C2C87 /* Pods-PeppaMe_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33087A88A704857196638D4B9D177908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2EDF38736964341A4992AA4BE00BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E81FFF83E211F358EBB085AFE66CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B42C5A4092761E168F6F8F9A0652190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B9D645295E31EF7F2A0C95C429ECB7 /* OrderManager.swift in Sources */,
+				A3260DAB2DCE6E20E9849AA4D35862A2 /* PeppaMe-dummy.m in Sources */,
+				4A7A9D5003035F46A6A0BC64FB55CDB0 /* Test.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BB7ABC5D6A7D0311E285DCBF1CFBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA81439BFC7B8BA03F1C21368879F04 /* Pods-PeppaMe_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8436F1C956457D1D80E601675EBEBA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E5771EE6A3BEDE79A96979B8A8AEEAF /* Pods-PeppaMe_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50CF0188FB862451248C17CBC4CEFA9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PeppaMe_Example";
+			target = 91525280594F288BD8BEBB6086DCC725 /* Pods-PeppaMe_Example */;
+			targetProxy = 234B0D09E265DA795A417428634EBEC9 /* PBXContainerItemProxy */;
+		};
+		6A83990A586D9223C934402EAA326897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PeppaMe;
+			target = C8B13178294C6B654757B6480455CDD9 /* PeppaMe */;
+			targetProxy = 233B889A76F3CA9A78143766D2DCDDF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11040836CF3EBBBD04778140621F5727 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F4A2C81148121FD591F8C8E2DA0ACE5 /* Pods-PeppaMe_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeppaMe_Tests/Pods-PeppaMe_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeppaMe_Tests/Pods-PeppaMe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		500FB945C9678BF7AE5670C758CAE9EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C76E17EC1447C25084DBD030A6A37A /* Pods-PeppaMe_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeppaMe_Example/Pods-PeppaMe_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeppaMe_Example/Pods-PeppaMe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		702D1874B4B78F83BB0C7C4B15DB0A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486BC69337530F0467F320A6D7F78FD3 /* PeppaMe.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PeppaMe/PeppaMe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeppaMe/PeppaMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeppaMe/PeppaMe.modulemap";
+				PRODUCT_MODULE_NAME = PeppaMe;
+				PRODUCT_NAME = PeppaMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A59B1AAE12E0766004F5255E338EDE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71BAF17D73AD8E623034D5DB3DB7A5E7 /* Pods-PeppaMe_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeppaMe_Example/Pods-PeppaMe_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeppaMe_Example/Pods-PeppaMe_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF15507627AB0290C0947C9CB15EB34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 691F262E69EC8C588D3769E61C6437D3 /* PeppaMe.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PeppaMe/PeppaMe-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PeppaMe/PeppaMe-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PeppaMe/PeppaMe.modulemap";
+				PRODUCT_MODULE_NAME = PeppaMe;
+				PRODUCT_NAME = PeppaMe;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		ED584E1CCBFE64E170BAC81E9E3759B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED71ECBBB7F8E3DC7E4950B3AA5FD785 /* Pods-PeppaMe_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PeppaMe_Tests/Pods-PeppaMe_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PeppaMe_Tests/Pods-PeppaMe_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79E2FFE07B907F3E5544A6D46E204C67 /* Build configuration list for PBXNativeTarget "PeppaMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF15507627AB0290C0947C9CB15EB34F /* Debug */,
+				702D1874B4B78F83BB0C7C4B15DB0A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC5123DD9F185719F99D080854734378 /* Build configuration list for PBXNativeTarget "Pods-PeppaMe_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59B1AAE12E0766004F5255E338EDE2D /* Debug */,
+				500FB945C9678BF7AE5670C758CAE9EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8A2007ECB4A6961256676E284D29013 /* Build configuration list for PBXNativeTarget "Pods-PeppaMe_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED584E1CCBFE64E170BAC81E9E3759B5 /* Debug */,
+				11040836CF3EBBBD04778140621F5727 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
